@@ -283,7 +283,7 @@
 //         cout << "No of obj " << count << endl;
 //     }
 // };
-// int car::count = 0; 
+// int car::count = 0;
 // int main()
 // {
 //     car c1, c2, c3;
@@ -353,20 +353,27 @@
 //     return 0;
 // }
 //--------------------------------------------------------------------------;
-#include <iostream> 
-using namespace std; 
-int main() { 
-int a, b; 
-cout << "Enter a : "; 
-cin >> a; 
-cout << "Enter b : "; 
-cin >> b; 
-try { 
-if (b == 0) 
-throw "error!"; 
-cout << "Result: " << a / b << endl; 
-} catch (const char *e) { 
-cout << "Exception: " << e << endl; 
-} 
-return 0; 
-} 
+#include <iostream>
+using namespace std;
+int main()
+{
+    // Taking user input
+    int a, b;
+    cout << "Enter a : ";
+    cin >> a;
+    cout << "Enter b : ";
+    cin >> b;
+    try
+    {
+        if (b == 0)
+            throw "error!";
+        cout << "Result: " << a / b << endl;
+    }
+    catch (const char *e)
+    {
+        cout << "Exception: " << e << endl;
+    }
+    cout << "------------------------------------------------------------------" << endl;
+    return 0;
+}
+// so i told you that in this way you can do commit or make a pull request ab to samaj aa gaya hoga na!!!
