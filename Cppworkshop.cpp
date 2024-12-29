@@ -376,4 +376,4 @@ int main()
     cout << "------------------------------------------------------------------" << endl;
     return 0;
 }
-// so i told you that in this way you can do commit or make a pull request ab to samaj aa gaya hoga na!!!
+// so i told you that in this way you can do commit or make a pull request.
